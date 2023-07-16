@@ -1,0 +1,54 @@
+--vim.o.termguicolors = true
+--vim.cmd([[
+--let g:tokyonight_style = 'night' " available: night, storm
+--let g:tokyonight_enable_italic = 1
+--colorscheme tokyonight
+--]])
+--require('nightfox').load()
+require('moonlight').set()
+-- local catppuccino = require("catppuccino")
+-- 
+-- -- configure it
+-- catppuccino.setup(
+--     {
+-- 		colorscheme = "neon_latte",
+-- 		transparency = false,
+-- 		styles = {
+-- 			comments = "italic",
+-- 			functions = "italic",
+-- 			keywords = "italic",
+-- 			strings = "NONE",
+-- 			variables = "NONE",
+-- 		},
+-- 		integrations = {
+-- 			treesitter = true,
+-- 			native_lsp = {
+-- 				enabled = true,
+-- 				styles = {
+-- 					errors = "italic",
+-- 					hints = "italic",
+-- 					warnings = "italic",
+-- 					information = "italic"
+-- 				}
+-- 			},
+-- 			lsp_trouble = false,
+-- 			lsp_saga = false,
+-- 			gitgutter = false,
+-- 			gitsigns = false,
+-- 			telescope = false,
+-- 			nvimtree = false,
+-- 			which_key = false,
+-- 			indent_blankline = false,
+-- 			dashboard = false,
+-- 			neogit = false,
+-- 			vim_sneak = false,
+-- 			fern = false,
+-- 			barbar = false,
+-- 			bufferline = false,
+-- 			markdown = false,
+-- 		}
+-- 	}
+-- )
+-- 
+-- -- load it
+-- catppuccino.load()

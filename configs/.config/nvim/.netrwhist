@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =9
+let g:netrw_dirhist_9='/PROCESOS/pyTools'
+let g:netrw_dirhist_8='/PROCESOS/pyGitHubBot'
+let g:netrw_dirhist_7='/home/danimanx/.config/alacritty'
+let g:netrw_dirhist_6='/PROCESOS/ChileAtiende/ms_safemcito_5234'
+let g:netrw_dirhist_5='/PROCESOS/ChileAtiende/ms_safemcito_5234/database/factories'
+let g:netrw_dirhist_4='/PROCESOS/ChileAtiende/k8/test/portalChileAtiende/safem-mpv'
+let g:netrw_dirhist_3='/PROCESOS/ChileByte/chileByteBot'
+let g:netrw_dirhist_2='/PROCESOS/ChileByte/chileByteBot/class'
+let g:netrw_dirhist_1='/PROCESOS/ChileByte/chileByteBot/lib'
+let g:netrw_dirhist_0='/PROCESOS/ChileByte/chileByteBot'

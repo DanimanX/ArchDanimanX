@@ -1,0 +1,25 @@
+[bar/DVI0]
+bottom = false
+monitor = DVI-D-0
+
+modules-left = bspwm
+modules-right = keyboard volume datetime powermenu
+
+[bar/mybar]
+bottom = false
+monitor = DP-1
+
+modules-left = bspwm 
+modules-right = keyboard temperature volume datetime powermenu
+
+[bar/HDMI0]
+bottom = false
+monitor = HDMI-0
+
+modules-left = bspwm
+modules-right = keyboard volume datetime powermenu
+
+[module/bspwm]
+type = internal/bspwm
+
+pin-workspaces = true

@@ -1,0 +1,6 @@
+--END OF MINIMAL INSTALL--
+nvim-packer-git
+google-chrome
+bspwm-rounded-corners-git
+zoom
+xcp
