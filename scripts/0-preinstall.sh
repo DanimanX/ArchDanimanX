@@ -142,7 +142,7 @@ echo -ne "
 -------------------------------------------------------------------------
 "
 #Here I selected linux-lts because stability for legacy hardware
-pacstrap /mnt base bash base-devel linux-lts linux-lts-firmware neovim sudo linux-firmware archlinux-keyring wget libnewt --noconfirm --needed
+pacstrap /mnt base base-devel linux-lts linux-lts-headers neovim sudo linux-firmware archlinux-keyring wget libnewt --noconfirm --needed
 echo "keyserver hkp://keyserver.ubuntu.com" >> /mnt/etc/pacman.d/gnupg/gpg.conf
 cp -R ${SCRIPT_DIR} /mnt/root/ArchDanimanX
 cp /etc/pacman.d/mirrorlist /mnt/etc/pacman.d/mirrorlist
