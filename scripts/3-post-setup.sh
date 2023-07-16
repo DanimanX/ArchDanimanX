@@ -140,6 +140,7 @@ sed -i 's/^%wheel ALL=(ALL:ALL) NOPASSWD: ALL/# %wheel ALL=(ALL:ALL) NOPASSWD: A
 # Add sudo rights
 sed -i 's/^# %wheel ALL=(ALL) ALL/%wheel ALL=(ALL) ALL/' /etc/sudoers
 sed -i 's/^# %wheel ALL=(ALL:ALL) ALL/%wheel ALL=(ALL:ALL) ALL/' /etc/sudoers
+mkdir -p /home/$USERNAME/.config/
 cp -r $HOME/ArchDanimanX/configs/.config/* /home/$USERNAME/.config/
 cp -r $HOME/ArchDanimanX/configs/.*bash* /home/$USERNAME/
 chown -R $USERNAME:$USERNAME /home/$USERNAME/*
