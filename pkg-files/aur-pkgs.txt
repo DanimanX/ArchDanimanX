@@ -1,5 +1,5 @@
 --END OF MINIMAL INSTALL--
-firefox-esr
+firefox-esr-bin
 nvim-packer-git
 google-chrome
 bspwm-rounded-corners-git
