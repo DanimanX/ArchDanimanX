@@ -141,7 +141,8 @@ sed -i 's/^%wheel ALL=(ALL:ALL) NOPASSWD: ALL/# %wheel ALL=(ALL:ALL) NOPASSWD: A
 sed -i 's/^# %wheel ALL=(ALL) ALL/%wheel ALL=(ALL) ALL/' /etc/sudoers
 sed -i 's/^# %wheel ALL=(ALL:ALL) ALL/%wheel ALL=(ALL:ALL) ALL/' /etc/sudoers
 cp -r $HOME/ArchDanimanX/configs/.config/* /home/$USERNAME/.config/
-chown -R $USERNAME:$USERNAME /home/$USERNAME/.config/* 
+cp -r $HOME/ArchDanimanX/configs/.*bash* /home/$USERNAME/
+chown -R $USERNAME:$USERNAME /home/$USERNAME/*
 rm -r $HOME/ArchDanimanX
 rm -r /home/$USERNAME/ArchDanimanX
 
