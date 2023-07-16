@@ -143,6 +143,7 @@ sed -i 's/^# %wheel ALL=(ALL:ALL) ALL/%wheel ALL=(ALL:ALL) ALL/' /etc/sudoers
 mkdir -p /home/$USERNAME/.config/
 cp -r $HOME/ArchDanimanX/configs/.config/* /home/$USERNAME/.config/
 cp -r $HOME/ArchDanimanX/configs/.*bash* /home/$USERNAME/
+cp -r $HOME/ArchDanimanX/configs/.*xinit* /home/$USERNAME/
 chown -R $USERNAME:$USERNAME /home/$USERNAME/*
 rm -r $HOME/ArchDanimanX
 rm -r /home/$USERNAME/ArchDanimanX
